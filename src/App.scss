@@ -1,0 +1,15 @@
+@media (min-width: 1050px) {
+  .ant-upload.ant-upload-select-picture-card {
+    width: 40% !important;
+  }
+}
+@media (min-width: 900px) and (max-width: 1050px) {
+  .ant-upload.ant-upload-select-picture-card {
+    width: 60% !important;
+  }
+}
+@media (max-width: 760px) {
+  .ant-upload.ant-upload-select-picture-card {
+    width: 100% !important;
+  }
+}

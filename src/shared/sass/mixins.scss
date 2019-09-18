@@ -1,0 +1,27 @@
+// Media Querys global
+@mixin padding() {
+  @media screen and (min-width: 320px) {
+    padding: 0.5em;
+  }
+
+  @media screen and (min-width: 480px) {
+    padding: 1em;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 2em;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 2em 3em;
+  }
+
+  @media screen and (min-width: 1270px) {
+    padding: 2em 4em;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 2560px) {
+    padding: 2em 20em;
+  }
+}
